@@ -1,0 +1,25 @@
+{
+  "name": "elite2-proxy-util",
+  "version": "1.0.0",
+  "description": "Proxy that adds the gateway token for easier dev use",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noms-digital-studio/elite2-proxy-util.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noms-digital-studio/elite2-proxy-util/issues"
+  },
+  "homepage": "https://github.com/noms-digital-studio/elite2-proxy-util#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "http-proxy-middleware": "^0.17.4",
+    "jsonwebtoken": "^8.1.0"
+  }
+}
